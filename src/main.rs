@@ -18,7 +18,6 @@ fn main() {
     dumper.load().unwrap();
 
     let f = OpenOptions::new()
-                .read(true)
                 .write(true)
                 .create(true)
                 .open(output_filename);
